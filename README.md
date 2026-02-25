@@ -1,70 +1,75 @@
-# Getting Started with Create React App
+🌲 MyGardens
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A gamified productivity app where your tasks grow into a living pixel-art forest.
 
-## Available Scripts
+Live Demo → mygardens.vercel.app
 
-In the project directory, you can run:
+🌱 What is MyGardens?
+MyGardens turns your daily tasks into a living, breathing forest. Every time you complete a focus session, a new plant blooms in your garden. Every time you fail or abandon a task, a withered plant appears — your garden becomes a honest reflection of your habits over time.
+Inspired by Forest (focus timer) and Notion (structured organization), MyGardens combines productivity with the emotional satisfaction of watching something grow.
 
-### `npm start`
+✨ Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+🌲 Three-tier ecosystem — Forest → Garden Lands → Plants
+⏱ Focus timer — Pomodoro-style sessions with live plant growth preview
+🌸 Plant growth system — Seedling → Small Flower → Flower → Tree based on session completion
+🥀 Withered plants — Failed tasks leave a permanent visual record
+⭐ XP & Streak system — Earn experience and build daily habits
+🎮 Demo mode — Fast-forward progress bar for quick demonstrations
+🎨 Pixel art aesthetic — Cozy, Stardew Valley-inspired visuals built entirely with CSS
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+🗂 Garden Categories
+GardenFocus Area💼 Work & StudyDeep work, reading, learning🌿 HealthExercise, sleep, wellness🎨 CreativeArt, music, writing✨ SocialRelationships, communication
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+🛠 Tech Stack
+LayerTechnologyFrontendReact (Create React App)StylingInline CSS + CSS animationsPixel ArtPure CSS box-shadow spritesState ManagementReact useReducerDeploymentVercel
 
-### `npm run build`
+🚀 Run Locally
+bash# Clone the repo
+git clone https://github.com/YOUR_USERNAME/mygardens.git
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Enter the folder
+cd mygardens
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Install dependencies
+npm install
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Start local preview
+npm start
+Open http://localhost:3000 in your browser.
 
-### `npm run eject`
+📦 Deploy to Vercel
+bash# Install Vercel CLI
+npm install -g vercel
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# Deploy
+vercel
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+🎮 How to Play
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Open the app → see your Forest overview
+Click a Garden to zoom in
+Select a task → click ▶ GO to start a focus session
+Watch your plant grow as the timer counts down
+Click ✓ DONE! when finished → a plant blooms! 🌸
+Abandon a task → a withered plant appears 🥀
+Build streaks → earn XP → unlock new plant species
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+🗺 Roadmap
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+ User authentication & cloud save
+ Sound effects & background music
+ More plant species unlocked by XP
+ Social garden sharing
+ Mobile app (React Native)
+ Dark / light mode toggle
+ Weekly habit reports
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+👩‍💻 Author
+Made with 🌱 by raine
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+📄 License
+MIT — free to use and build upon.
