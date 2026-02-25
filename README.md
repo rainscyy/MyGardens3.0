@@ -1,4 +1,4 @@
-🌲 MyGardens
+# 🌲 MyGardens
 
 A gamified productivity app where your tasks grow into a living pixel-art forest.
 
